@@ -4,7 +4,6 @@ from pprint import pprint
 import re
 
 KEYWORDS = ['дизайн', 'фото', 'web', 'python']
-KEYWORDS_SET = set(KEYWORDS)
 
 base_url = 'https://habr.com'
 full_url = f'{base_url}/ru/all'
